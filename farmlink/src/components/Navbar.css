@@ -40,7 +40,7 @@ nav ul li a {
 nav ul li a:hover {
     /* -webkit-text-stroke: 1px #00ff00; */
     -webkit-text-stroke: 1px green;
-    color: transparent;
+    color: green;
     /* filter: blur(0px); */
 }
 

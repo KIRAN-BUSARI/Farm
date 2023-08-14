@@ -10,15 +10,13 @@ export default function Landing() {
                     <p><b>Farmlink is a platform that connects farmers with buyers.</b></p>
                     <a href="/home">Explore</a>
                 </div>
-            </div>
-            <div className="land-content2">
-                <p><span role='img'>🍁 </span></p>
-                <p><b>FarmLink is the platform that connects farmers with buyers.</b></p>
+                <div className="land-content2">
+                    <p><b>FarmLink is the platform that connects farmers with buyers.</b></p>
 
-            </div>
-            <div className="land-content3">
-                <p><b>FarmLink is the platform that connects farmers with buyers.</b></p>
-
+                </div>
+                <div className="land-content3">
+                    <p><b>FarmLink is the platform that connects farmers with buyers.</b></p>
+                </div>
             </div>
             <Navbar />
         </>
