@@ -3,23 +3,94 @@
     height: 100vh;
     background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(../Images/farmcommunity.png); */
+    background-repeat: no-repeat;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
 
-.community-content {
+
+.community-container h1 {
+    margin-bottom: 20px;
+    color: green;
+    margin-top: 20px;
+}
+
+.community-contents {
+    display: flex;
+}
+
+.community-content1 {
     border: 2px solid #000;
     border-radius: 20px;
     height: 40vh;
     width: 20vw;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 50px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.community-container .community-content .video {
+.community-content2 {
+    border: 2px solid #000;
+    border-radius: 20px;
     height: 40vh;
     width: 20vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.community-content3 {
+    border: 2px solid #000;
+    border-radius: 20px;
+    height: 40vh;
+    width: 20vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.community-content4 {
+    border: 2px solid #000;
+    border-radius: 20px;
+    height: 40vh;
+    width: 20vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.joinnow {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #fff;
+    color: green;
+    font-style: 24px;
+    border: 2px solid #000;
+    padding: 5px 5px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.joinnow:hover {
+    color: #fff;
+    background-color: green;
 }

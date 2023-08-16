@@ -5,7 +5,7 @@ export default function Navbar(props) {
     return (
         <>
             <div className="nav-container">
-                <video autoPlay loop muted playsInline className='bgv' src={require('../Images/bgv.mp4')} typeof='video/mp4'></video>
+                {/* <video autoPlay loop muted playsInline className='bgv' src={require('../Images/bgv.mp4')} typeof='video/mp4'></video> */}
                 <nav className="navbar">
                     <h2 className='heading'>FarmLink.!</h2>
                     <ul>

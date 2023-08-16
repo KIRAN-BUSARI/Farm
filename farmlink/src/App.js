@@ -10,6 +10,7 @@ import Home from "./components/Home";
 import Communities from "./components/Communities";
 import Support from "./components/Support";
 import Store from "./components/Store";
+import JoinNow from "./components/JoinNow";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/home' element={<Home />} />
           <Route path='/' element={<Landing />} />
           <Route path='/about' element={<About />} />
+          <Route path='/join' element={<JoinNow />}></Route>
           {/* <Route path='/signin' element={<SignIn />} /> */}
         </Routes>
       </BrowserRouter>
